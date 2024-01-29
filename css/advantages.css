@@ -1,0 +1,105 @@
+.advantages{
+    background: #E7EDF2;
+    border-radius: 30px;
+    padding: 100px 0;
+}
+
+.title__advantages{
+    padding: 0px 300px;
+}
+
+.benefis__top{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.benefits__bot{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.benefit{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 315px;
+    height: 315px;
+    border: 1px solid #BECBD6;
+    position: relative;
+    overflow: hidden;
+}
+
+.svg__benefit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 275px;
+    height: 172px;
+    transition: 0.3s ease-in;
+    transform: scale(1);
+}
+
+.benefit__text{
+    display: flex;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #10131B;
+    letter-spacing: 0.0em;
+    transition: 0.3s ease-in;
+    
+}
+
+.benefit__hover{
+    overflow: hidden;
+    opacity: 0;
+    top: 37%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+
+}
+
+.benefit__small{
+    transition: 0.3s ease-in;
+}
+
+.benefit:hover .benefit__hover{
+    transition: 0.3s ease-in;
+    opacity: 1;
+    overflow:visible;
+    position: absolute;
+    top: 145px;
+}
+
+.benefit:hover .svg__benefit{
+    transition: 0.3s ease-in;
+    transform: scale(0.4);
+
+}
+
+
+.benefit:hover .benefit__text{
+    transition: 0.3s ease-in;
+    margin-top: -30px;
+
+
+}
+
+.benefit:hover .benefit__small{
+    transition: 0.3s ease-in;
+    position: absolute;
+    margin-top: -70px;
+}

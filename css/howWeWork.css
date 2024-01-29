@@ -1,0 +1,101 @@
+.howWeWork{
+    display: grid;
+    padding-top: 200px;
+    position: relative;
+}
+
+.img__howWeWork{
+    position: absolute;
+    top: 275px;
+    right: 15%;
+}
+
+.howWeWork__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    padding-left: 300px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #2AA3D6;
+}
+
+.body__howWeWork{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    letter-spacing: 0.02em;
+    color: #94A3B0;
+}
+
+.stagesNew{
+    display: flex;
+    flex-direction: column;
+    padding: 86px 224px 59px 300px;
+    height: 200px;
+    gap: 50px;
+    border-bottom: 1px solid #2AA3D6;
+    border-right: 150%;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease-in;
+}
+
+.stagesNew__nember{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    align-items: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #94A3B0;
+
+}
+
+.stagesNew__text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    transition: 0.3s ease-in;
+}
+
+
+.stagesNew__hover{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #E7EDF2;
+    position: absolute;
+    top: 65px;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.stagesNew:hover{
+    transition: 0.3s ease-in;
+    background: rgba(190, 203, 214, 0.1)
+}
+
+.stagesNew:hover .stagesNew__text{
+    transition: 0.3s ease-in;
+    position: absolute;
+    margin-top: -40px;
+}
+
+.stagesNew:hover .stagesNew__hover{
+    opacity: 1;
+    transition: 0.3s ease-in;
+    max-width: 820px;
+    position:relative;
+    top: 20px;
+}
